@@ -3,7 +3,7 @@ html{
     font-size: 100%;
 }
 body{
-    background-image: url("../images/MD/tapet_2015-05-29_12-09-45_339_1920x1080.png");
+    background-image: url("../images/background.jpg");
     background-attachment: fixed;
     background-size: cover;
 }
