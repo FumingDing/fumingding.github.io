@@ -16,6 +16,7 @@ function getVendorPrefix() {
 */
 
 var pixcel=window.screen.width,scale=window.devicePixelRatio;
+alert(pixcel);
 if(pixcel==1920&scale==1){
     //alert(scale);
     document.getElementById('html').style.fontSize="125%";
