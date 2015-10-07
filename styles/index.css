@@ -5,7 +5,7 @@ html{
 body{
     background-image: url("../images/background.jpg");
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
     background-repeat:no-repeat;
 }
 div{
@@ -24,12 +24,13 @@ div{
  }
 .myPhoto{
     display: inline-block;
-    width:5.9rem;
-    height: 5.9rem;
+    width:5.7rem;
+    height: 5.7rem;
     background-color: transparent;
     border-radius: 3rem;
     box-shadow:0 0 29px 1px #3e3e3e;
-    margin-right: 10rem;
+    margin-left: 0.3rem;
+    margin-top: 0.15rem;
 }
 
 p{
@@ -42,14 +43,14 @@ p{
 }
 .content{
     width:52rem;
-    height: 62rem;
+    height: 69rem;
     margin:1.5rem auto;
     background-color: rgb(41, 210, 250);
     box-shadow: 0 0 20px 5px grey;
 }
 .content>div{
-    width:50rem;
-    height: 12.7rem;
+    width:50.5rem;
+    height: 15rem;
     margin:1rem auto;
 }
 .picture{
@@ -58,12 +59,12 @@ p{
     width:12rem;
 }
 .instruction1{
-    width:37.5rem;
-    height:12rem;
-    margin-top:0.3rem;
+    width:37.3rem;
+    height:13.0rem;
+    margin-top:0.9rem;
     display: inline-block;
     background-color: #ffffff;
-    box-shadow: 0 0 20px 7px #656565;
+    box-shadow: 0 0 20px 2px #656565;
     
 }
 .picture0{
@@ -71,7 +72,7 @@ p{
     height: 4rem;
     border-radius: 2rem;
     background-color:aquamarine;
-    margin:0 auto;
+    margin:1rem auto;
     box-shadow: 0 0 15px 3px grey
 }
 .picture1{
@@ -91,6 +92,7 @@ p{
     width: inherit;
     height: inherit;
     background-color:azure;
+    margin-top:0rem;
 }
 .date{
     dispaly:block;
