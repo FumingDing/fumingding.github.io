@@ -20,3 +20,6 @@ if(pixcel==1920&scale==1){
     //alert(scale);
     document.getElementById('html').style.fontSize="125%";
 }
+if(pixcel＜1300){
+   alert("change backgroung image ratio")
+}
