@@ -103,3 +103,11 @@ p{
     font-size: 1.1rem;
     color:darkcyan
 }
+.myPhoto img{
+    width:5.7rem;
+    height: 5.7rem;
+}
+.picture1 img{
+    height: 8rem;
+    width:8rem;
+}
