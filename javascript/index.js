@@ -1,3 +1,4 @@
+/*
 function getVendorPrefix() {
     // 使用body是为了避免在还需要传入元素
     var body = document.body || document.documentElement,
@@ -12,11 +13,9 @@ function getVendorPrefix() {
          i++;
     }
 };
-if(getVendorPrefix()=="webkit"){
-   //document.getElementById("html").style.transform="scale(0.5)";
-}
+*/
 
 var pixcel=window.screen.width,scale=window.devicePixelRatio;
-           
-//alert(window.screen.width);
-//alert(window.devicePixelRatio);
+if(pixcel==1920&scale==1){ 
+    document.getElementById('html').style.fontSize="125%";
+}
