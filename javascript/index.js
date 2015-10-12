@@ -16,11 +16,14 @@ function getVendorPrefix() {
 */
 
 var pixcel=window.screen.width,scale=window.devicePixelRatio;
-alert(pixcel);
+alert("呵");
+alert("呵呵");
+alert("呵呵呵");
+alert("呵呵呵呵");
 if(pixcel==1920&scale==1){
     //alert(scale);
     document.getElementById('html').style.fontSize="125%";
 }
 if(pixcel<2300){
-   alert("change backgroung image ratio")
+   //alert("change backgroung image ratio")
 }
