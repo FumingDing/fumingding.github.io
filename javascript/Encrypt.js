@@ -1,3 +1,7 @@
+document.getElementById("pass").onkeyup=function(){
+	//alert("change");
+	document.getElementById("pass").value=document.getElementById("pass").value.toUpperCase();
+	}
 var Size=27,amount=0,num=0,pass=[],letter=['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'],key=[],result=[],reverse=[];
 document.getElementById("start").onclick=function(){
 	var passUpper=document.getElementById("pass").value.toUpperCase();
