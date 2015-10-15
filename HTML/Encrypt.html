@@ -1,1 +1,119 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Encrypt</title>
+    </head>
+    <style>
+        html{
+    font-size: 150%;
+    font-family: SimHei;
+}
+h1{
+    text-align: center;
+    font-family: SimHei;
+    font-size:3rem;
+}
+form{
+    
+}
+#wrapper{
+    width:40rem;
+    margin: 0 auto;
+    background-color: beige;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+}
+form div:nth-child(2){
+    width:18rem;
+    display:block;
+    margin: 2rem 13rem;;
+}
+form div:nth-child(2) input{
+    height: 1.1rem;
+    font-size: 1rem;
+    width:12rem;
+}
+#choice{
+    width:10rem;
+    display: block;
+    margin:2rem 13rem;
+}
+#choice input{
+    width:1rem;
+    height: 0.7rem;
+}
+form div:nth-child(3){
+    width:20rem;
+    display:block;
+    margin: 2rem 13rem;;
+}
+form div:nth-child(3) input{
+    font-family: SimHei;
+    font-size: 1.15rem;
+    height: 1.2rem;
+    width:10rem;
+}
+form div:nth-child(4) input{
+    border-radius: 9px;
+    background-color: #00e3e3;
+    height: 2rem;
+    width:4.4rem;
+    font-size:1rem;
+    font-family: SimHei;
+    color: #ea1f1f;
+    display:block;
+    margin: 2rem auto;;
+}
+form div:nth-child(5) #text,form div:nth-child(5) #text1{
+    width:30rem;
+    height: 3rem;
+    display:block;
+    margin: 2rem auto;
+    font-size: 2rem;
+    font-family: simhei;
+}
+form div:nth-child(5) label{
+    display: inline-block;
+    margin-left: 2.3rem;
+    
+}
+form div:nth-child(5) #text2{
+    width:30rem;
+    height: 3rem;
+    display:inline-block;
+    margin: 1rem 0rem;
+    font-size: 2rem;
+    font-family: simhei;
+}
+    </style>
+    <body>
+        <h1>Encryption program</h1>
+        <div id="wrapper">
+            <form>
+                <div id="choice">
+                    加密<input id="choice1" type="radio" name="choice"  />
+                    解密<input id="choice2" type="radio" name="choice" />
+                </div>
+                <div>
+                    <label>输入字符串</label><input type="text" id="pass" />
+                </div>
+                <div>
+                    <label>输入要处理的字符串</label><input type="text" id="proc" />
+                </div>
+                <div>
+                    <input type="button" id="start" value="加/解密" onclick="process" />
+                </div>
+                <div>
+                   
+                    <input type="text" id="text"  />
+                    <input type="text" id="text1"  />
+                    <label>结果:</label><input type="text" id="text2"  />
+                </div>
+            </form>
+        </div>
+        <script src="../javascript/Encrypt.js">
+        </script>
+    </body>
+</html>
 
